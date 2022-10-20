@@ -4,4 +4,20 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --white: #f8f8f8;
+  --black: #1a1d23;
+  --gray-100: #d7d7d7;
+  --gray-200: #bbb;
+  --pink-500: #ff57b2;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--black);
+
+  font-family: 'Inter', sans-serif;
+}
